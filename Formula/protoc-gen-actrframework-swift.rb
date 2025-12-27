@@ -1,9 +1,9 @@
 class ProtocGenActrframeworkSwift < Formula
   desc "Swift protoc plugin for generating ACTR framework stubs"
   homepage "https://github.com/actor-rtc/framework-codegen-swift"
-  version "0.1.4"
+  version "0.1.5"
   url "https://github.com/actor-rtc/framework-codegen-swift/releases/download/v#{version}/protoc-gen-actrframework-swift-macos-arm64.zip"
-  sha256 "b7ce2c7114700e5182d18bfb07c793d2a11206f3f69091c178b1d73123d9f97c"
+  sha256 "70c27bd24d4eab6b8024e32246c6fb8100de5b370dbfa0a9815856cc00e31e09"
 
   depends_on arch: :arm64
   depends_on macos: :ventura
